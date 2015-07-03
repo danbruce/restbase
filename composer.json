@@ -1,0 +1,33 @@
+{
+    "name": "danbruce/restbase",
+    "description": "An abstract class wrapped around Guzzle for REST APIs.",
+    "keywords": [
+        "REST", "HTTP", "Rest Client", "Guzzle"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Bruce",
+            "email": "dbruce1126@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DanBruce\\RestBase\\": "./src",
+            "DanBruce\\RestBaseTest\\": "./tests"
+        }
+    },
+    "homepage": "https://github.com/danbruce/restbase",
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": ">=5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "squizlabs/php_codesniffer": "*",
+        "vectorface/dunit": "*",
+        "phpmd/phpmd":"*"
+    }
+}
